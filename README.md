@@ -9,7 +9,6 @@ The project allows users to enter their credit card details and other required i
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
