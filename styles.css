@@ -1,0 +1,116 @@
+#root{
+
+    background-color: #d0d6d9;
+    height: 713px;
+    /*width: 1200px;*/
+    /*margin: 30px auto 0 auto;*/
+    /*border-radius: 15px;*/
+}
+#main{
+    display: flex;
+    position: relative;
+    top: 90px;
+    left: -4px;
+    height: 550px;
+    width: 925px;
+    background-color: #ffffff;
+    margin: 0 auto 0 auto;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*The credit card form*/
+.cc-form{
+    flex: 1;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 400px;
+}
+.expcvv{
+    display: flex;
+    width: 400px;
+}
+.exp{
+    flex: 1;
+}
+.cvv{
+    flex: 1;
+}
+.mail, .cc{
+    width: 300px;
+}
+/*Invoice bill*/
+.parent-invoice{
+    display: flex;
+}
+.product{
+    width: 50%;
+    height: 20px;
+    flex: 1;
+    padding-right: 120px;
+    margin-bottom: 0;
+}
+.cost{
+    padding-left: 175px;
+}
+hr{
+    margin: 0;
+}
+/*Buttons*/
+.btn{
+    background-color: #1c3657;
+}
+.btn:hover{
+    background-color: #225494;
+}
+.b1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 0 25px;
+}
+/*The other half*/
+.half{
+    flex: 1;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+img{
+    border-radius: 5px 10px 0 0;
+    height: 250px;
+    width: 400px;
+}
+.points{
+    background-color: #dde1e7;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+    width: 400px;
+    height: 255px;
+    border-radius: 0 0 10px 10px;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+}
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #1c68c0; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+
+}
+li{
+    margin-bottom: 1.5%;
+    line-height: 30px;
+}
+
+/*Fonts*/
+label, .font{
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
