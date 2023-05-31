@@ -1,25 +1,17 @@
-# Credit Card Payment Checkout
+# Frontend projects
 
-This is a frontend project for a credit card checkout system.
-The project allows users to enter their credit card details and other required information to process a payment and display the overall bill.
+Here are all of my frontend projects. Feel free to check 'em out.
 
 ## Table of Contents
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Contributing](#contributing)
-
-## Features
-
-- User-friendly interface for entering credit card details and other necessary information.
-- Calculation of the overall bill based on the entered details.
-- Display of the total bill amount to the user.
 
 ## Technologies Used
 
 - HTML: Markup language used for creating the structure of the web pages.
 - CSS: Styling language used for visually enhancing the user interface.
+- JavaScript: For adding cool functionalities
 
 ## Getting Started
 
